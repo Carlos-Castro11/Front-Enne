@@ -22,10 +22,10 @@ const routePaths = {
 const RoutesEnneConfeitaria = () => (
   <App>
     <Routes>
-      {Object.values(routePaths).map((route, idx) => {
+      {Object.values(routePaths).map((route, index) => {
         return (
           <Route
-            key={route.string + idx}
+            key={route.string + index}
             path={route.string}
             element={route.component}
           />
