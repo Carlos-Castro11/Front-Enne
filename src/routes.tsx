@@ -4,8 +4,8 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import App from "./App";
 
 // PAGES
-import HomePage from "./pages/HomePage/HomePage";
-import ProfilePage from "./pages/ProfilePage/ProfilePage";
+import HomePage from "./pages/HomePage";
+import ProfilePage from "./pages/ProfilePage";
 
 function BasicRouteComponent(path: string, component: JSX.Element) {
   return { string: path, component: component };
