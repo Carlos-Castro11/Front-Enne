@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Route, Routes, Navigate } from "react-router-dom";
 
 // PAGES
@@ -15,7 +14,7 @@ function BasicRouteComponent(path: string, component: JSX.Element) {
 const routePaths = {
   DEFAULT: BasicRouteComponent("*", <Navigate to={"/"} />),
   HOME: BasicRouteComponent("/", <HomePage />),
-  PROFILE: BasicRouteComponent("/profile", <ProfilePage />),
+  PROFILE: BasicRouteComponent("/profile", <ProfilePage />)
   // USER: BasicRouteComponent("admin/:id", <ProfilePage />)
 };
 

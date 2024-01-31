@@ -5,20 +5,20 @@ export default function (plop) {
       {
         type: "input",
         name: "name",
-        message: "What is your component name?",
-      },
+        message: "What is your component name?"
+      }
     ],
     actions: [
       {
         type: "add",
         path: "../src/components/{{pascalCase name}}/{{pascalCase name}}.tsx",
-        templateFile: "templates/component.tsx.hbs",
+        templateFile: "templates/component.tsx.hbs"
       },
       {
         type: "add",
         path: "../src/components/{{pascalCase name}}/{{pascalCase name}}.module.css",
-        templateFile: "templates/module.css.hbs",
-      },
-    ],
+        templateFile: "templates/module.css.hbs"
+      }
+    ]
   });
 }

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 
