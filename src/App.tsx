@@ -1,5 +1,5 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+// COMPONENTS
+import Header from "./components/Header";
 
 interface IAppProps {
   children: JSX.Element;
@@ -10,7 +10,6 @@ const App = ({ children }: IAppProps) => {
     <>
       <Header />
       {children}
-      <Footer />
     </>
   );
 };

@@ -11,13 +11,13 @@ export default function (plop) {
     actions: [
       {
         type: "add",
-        path: "../src/components/{{pascalCase name}}/{{pascalCase name}}.tsx",
-        templateFile: "templates/component.tsx.hbs"
+        path: "../src/components/{{pascalCase name}}/index.tsx",
+        templateFile: "templates/index.tsx.hbs"
       },
       {
         type: "add",
-        path: "../src/components/{{pascalCase name}}/{{pascalCase name}}.module.css",
-        templateFile: "templates/module.css.hbs"
+        path: "../src/components/{{pascalCase name}}/styles.tsx",
+        templateFile: "templates/styles.tsx.hbs"
       }
     ]
   });
