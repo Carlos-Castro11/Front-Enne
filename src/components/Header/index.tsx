@@ -1,4 +1,4 @@
-import { useState, SetStateAction, Dispatch } from "react";
+import React from "react";
 import * as S from "./styles";
 
 export type HeaderProps = {
@@ -6,8 +6,8 @@ export type HeaderProps = {
 };
 
 const Header = () => {
-  const [dark, setDark]: [boolean, Dispatch<SetStateAction<boolean>>] =
-    useState<boolean>(false);
+  const [dark, setDark] = React.useState<boolean>(false);
+
   return (
     <S.Wrapper dark={dark}>
       <h1>HEADER</h1>

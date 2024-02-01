@@ -1,6 +1,4 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-
-// PAGES
 import App from "./App";
 
 // PAGES
